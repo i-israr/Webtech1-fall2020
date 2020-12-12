@@ -1,0 +1,19 @@
+Listeners:
+
+-> Listener API listens to the events happening within your web-server in regard to your application.
+-> Listeners are like triggers that can be attached to events in your app server.
+   With listeners you can track application-level, session-level, life-cycle changes, attribute changes etc. 
+-> Servlet Listener is used to listen events in a web containers, such as when you create a session, 
+   or place an attribute in an session or if you passivate and activate in another container, 
+   to subscribe to these events you can configure listener in web.xml, for example HttpSessionListener.
+-> Listener is like a trigger when any trigger is occur it take the action.
+-> Listener is used for the Web Application, it is doing important tasks on events in context-level, session-level etc.
+
+Filters:
+-> Filters are used for pre and post process requests.
+-> Servlet Filter is used to monitor the request and response from client to the servlet, or modify the request and response.
+-> Filter is simply Filtering the response and request coming from the clients to the servlet.	
+-> Filter is used for the Servlet, it is intercepting the requests and responses.
+
+Problem: You want to check whether a user is logged on before he/she accesses a protected page?
+Ans: if no filter api, the code which check the session has an attribute identifying current user should be in all Jsps.
